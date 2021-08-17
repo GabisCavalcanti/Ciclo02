@@ -6,7 +6,7 @@ var v = (numero === n);
 var soma = parseInt(numero) + parseInt(n);
 var subtra = numero - n;
 var divs = numero%n;
-var quadrad = numero*numero;
+var quadrad = numero**2;
 document.write("1.Seja bem vindo...: " + nome + "<br>");
 document.write("2.Você digitou o numero...: "+ "("+ numero +")" + "<br>");
 document.write("3.O retorno da comparação booleana é...: "+ v + "<br>");
